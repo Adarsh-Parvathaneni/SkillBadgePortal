@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Issue Badge - SkillBadge</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <nav>
+
+        <h2>SkillBadge</h2>
+
+        <div>
+
+            <a href="index.html">Home</a>
+
+            <a href="issue-badge.html">Issue Badge</a>
+
+            <a href="verify-badge.html">Verify Badge</a>
+
+            <a href="wallet.html">Badge Wallet</a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- Main Content -->
+
+    <main>
+
+        <section class="form-section">
+
+            <h1>Issue a Skill Badge</h1>
+
+            <p>
+                Select a student and learning module to issue
+                a verified digital skill badge.
+            </p>
+
+
+            <!-- Badge Form -->
+
+            <form>
+
+                <!-- Student ID -->
+
+                <div class="form-group">
+
+                    <label for="studentId">
+                        Student ID
+                    </label>
+
+                    <input
+                        type="text"
+                        id="studentId"
+                        name="studentId"
+                        placeholder="Enter student ID"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Student Name -->
+
+                <div class="form-group">
+
+                    <label for="studentName">
+                        Student Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="studentName"
+                        name="studentName"
+                        placeholder="Enter student name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Module -->
+
+                <div class="form-group">
+
+                    <label for="module">
+                        Select Module
+                    </label>
+
+                    <select
+                        id="module"
+                        name="module"
+                        required
+                    >
+
+                        <option value="">
+                            -- Select a Module --
+                        </option>
+
+                        <option value="web-technologies">
+                            Web Technologies
+                        </option>
+
+                        <option value="java">
+                            Java Programming
+                        </option>
+
+                        <option value="database">
+                            Database Management
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+                <!-- Issue Button -->
+
+                <button type="submit" class="btn">
+                    Issue Badge
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Verified Skill Badge Portal
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>

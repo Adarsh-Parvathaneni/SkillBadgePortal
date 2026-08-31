@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #222;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 60px;
+
+    background-color: #ffffff;
+
+    border-bottom: 1px solid #ddd;
+}
+
+nav h2 {
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+
+    margin-left: 25px;
+
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #4f46e5;
+}
+
+
+/* Hero */
+
+.hero {
+    text-align: center;
+
+    padding: 100px 20px 80px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+
+    max-width: 600px;
+    margin: auto;
+
+    line-height: 1.6;
+}
+
+
+/* Buttons */
+
+.buttons {
+    margin-top: 35px;
+}
+
+.btn {
+    display: inline-block;
+
+    padding: 14px 25px;
+
+    background-color: #4f46e5;
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 8px;
+
+    margin: 5px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.secondary {
+    background-color: #222;
+}
+
+
+/* Features */
+
+.features {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 25px;
+
+    padding: 40px 60px 80px;
+}
+
+.card {
+    background-color: white;
+
+    width: 280px;
+
+    padding: 30px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #666;
+
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    background-color: #ffffff;
+
+    color: #777;
+}
+
+/* Form Section */
+
+.form-section {
+    max-width: 600px;
+    margin: 70px auto;
+    padding: 40px;
+
+    background-color: white;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form-section h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.form-section > p {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 30px;
+
+    line-height: 1.5;
+}
+
+
+/* Form Groups */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 8px;
+
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+
+    padding: 12px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+
+    border-color: #4f46e5;
+}
+
+
+/* Submit Button */
+
+form .btn {
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    width: 100%;
+}
+
+/* Badge Wallet */
+
+.wallet-section {
+    max-width: 900px;
+
+    margin: 60px auto;
+
+    padding: 20px;
+}
+
+.wallet-section h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+}
+
+.wallet-description {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 40px;
+}
+
+
+/* Badge Card */
+
+.badge-card {
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+    background-color: white;
+
+    padding: 25px;
+
+    margin-bottom: 20px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Badge Icon */
+
+.badge-icon {
+    font-size: 50px;
+
+    min-width: 70px;
+
+    text-align: center;
+}
+
+
+/* Badge Information */
+
+.badge-info {
+    flex: 1;
+}
+
+.badge-info h2 {
+    margin-bottom: 10px;
+}
+
+.badge-info p {
+    color: #666;
+
+    margin-bottom: 6px;
+}
+
+
+/* Badge Status */
+
+.badge-status {
+    display: inline-block;
+
+    padding: 8px 14px;
+
+    background-color: #dcfce7;
+
+    color: #166534;
+
+    border-radius: 20px;
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
